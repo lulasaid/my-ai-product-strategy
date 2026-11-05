@@ -38,7 +38,10 @@
 ---
 
 ## Top Vulnerability
-<!-- The orchestration layer could potentially become a feature of a larger enterprise AI/workflow platform unless the product we're creating owns differentiated claims context, decision logic, and outcome data -->
+
+**The orchestration layer could potentially become a feature of a larger enterprise AI/workflow platform unless the product we're creating owns differentiated claims context, decision logic, and outcome data**
+<!--  -->
 
 ## Confidence Level
+**M**
 <!-- M -->
