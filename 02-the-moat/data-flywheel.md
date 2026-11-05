@@ -37,22 +37,22 @@
 ## Encroachment Threat Assessment
 
 ### 1. Platform Encroachment
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+**Attacker:Salesforce**
+**Vector:ai/cloud platform that commoditize agentic claims automation so competitors can acquire similar capabilities and place it into their workflow.**
+**Time-to-threat:1-2 years**
+**% of value at risk:30%**
 
 ### 2. Vertical Competitor
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+**Attacker:Equitable**
+**Vector:Builds faster, more automated AI enabled annuity claims experience.**
+**Time-to-threat:2-3 years**
+**% of value at risk:40%**
 
 ### 3. Adjacent Expansion
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+**Attacker:Lemonade**
+**Vector:company that isnt a direct annuity competitor expands from neighboring insurance/financial services area into claims or claims technology.**
+**Time-to-threat:3-5 years**
+**% of value at risk:20%**
 
 ---
 
