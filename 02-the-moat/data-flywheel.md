@@ -7,30 +7,30 @@
 
 | Loop | What It Measures | Score 1 | Score 5 | Score |
 |------|------------------|---------|---------|-------|
-| **Correction** | Do users fix AI outputs? Is that signal captured and reused? | No capture | Automated retraining | __/5 |
-| **Preference** | Does the product learn individual / team preferences over time? | Stateless | Deep personalization | __/5 |
-| **Domain Context** | Does usage in one area improve quality in adjacent areas? | Siloed | Cross-domain transfer | __/5 |
-| **Network** | Does each new user / team make the product better for everyone? | Isolated | Strong network effects | __/5 |
+| **Correction** | Do users fix AI outputs? Is that signal captured and reused? | No capture | Automated retraining | 3/5 |
+| **Preference** | Does the product learn individual / team preferences over time? | Stateless | Deep personalization | 3/5 |
+| **Domain Context** | Does usage in one area improve quality in adjacent areas? | Siloed | Cross-domain transfer | 4/5 |
+| **Network** | Does each new user / team make the product better for everyone? | Isolated | Strong network effects | 3/5 |
 
-### Correction Loop - __/5
-**What you capture today:**
+### Correction Loop - 3/5
+**What you capture today:Claim outcomes, correction and overrides, IGO/NIGO reasons, business rules, claimaint interactions, exceptions and relationships across policies, benes, products, documents and systems.**
 **How it compounds:**
 
-### Preference Loop - __/5
-**What you capture today:**
+### Preference Loop - 3/5
+**What you capture today:Claimant and associate preference/feedback like preferred communication, interaction patterns, where AI is recommended and accepted, override, or corrected.**
 **How it compounds:**
 
-### Domain Context Loop - __/5
-**What you capture today:**
+### Domain Context Loop - 4/5
+**What you capture today:Claims specific knowledge, IGO/NIGO reasons, business rules, doc requirements, adjudication decisions, compliance rules.**
 **How it compounds:**
 
-### Network Loop - __/5
-**What you capture today:**
+### Network Loop - 3/5
+**What you capture today:Relationships across claims ecosystem ie claim to case, claimant to bene, contract to policy, product, docs, prior interactions, admin systems, domain systems, and downstream process.**
 **How it compounds:**
 
-**Total Flywheel Score: __/20**
-**Weakest Loop:**
-**Fix for weakest loop:**
+**Total Flywheel Score: 13/20**
+**Weakest Loop/Fix for weakest loop:Four loops reflected as lower than one rated higher. Can bring the 3s to 4s if for preference we systematically capture the claimaint and associate feedback and relay it to the AI. FOr network, we can better connect data and outcomes to avoid large gaps linking bene to policies, products, docs etc together.**
+
 
 ---
 
