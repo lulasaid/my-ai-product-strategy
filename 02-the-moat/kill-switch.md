@@ -4,13 +4,14 @@
 
 | Dimension | Current State | Risk Level | 48-Hour Action |
 |-----------|--------------|------------|---------------|
-| **Provider** | | H / M / L | |
-| **Abstraction** | | H / M / L | |
-| **Routing** | | H / M / L | |
-| **Eval** | | H / M / L | |
+| **Provider** | | H | |
+| **Abstraction** | | H  | |
+| **Routing** | | M  | |
+| **Eval** | | M | |
 
 ## Portability Score
-<!-- Ready / Partial / Locked -->
+*Partial** 
+<!-- proprietary data for claims, domain conexct, workflows -->
 
 ## If [primary vendor] doubles pricing tomorrow:
 <!-- What's your 48-hour response? -->
