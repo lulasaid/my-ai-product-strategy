@@ -1,4 +1,8 @@
 # Cost Curve & Pricing Strategy
+Leader feature: AI Claims Decision Support - AI assisted claims intake, analysis, and best-action recommendations
+Filler feature: AI Claim summaries and insights
+Killer feature and usage %: Processing of large volumes of claims documents and complex multimodal content like pdfs, images, forms, or handwritten or unstructured content. 30-50%.
+Pricing strategy bundle or add-on: add-on as usage based.
 
 ## Cost Model
 
