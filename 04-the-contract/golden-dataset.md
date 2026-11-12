@@ -28,14 +28,15 @@ TC10	|Claim: Two separate claims submitted for the same annuitant and contract. 
 
 **User control surface: User sees AI reasoning/drivers, users correct & override outputs, Corrections feed back into model/dataset, users adjust the confidence threshold**
 
-## Reliability Contract
+## Reliability Contract The AI Annuity Claims Decision & Exception Orchestrator will reliably evaluate annuity claims using claim information, contract provisions, and supporting evidence. It will recommend appropriate claim decisions, identify missing information and exceptions, explain its rationale, and route complex or uncertain cases to the appropriate human reviewer.
 
-| Metric | Target | Measurement | Alert Threshold |
-|--------|--------|-------------|-----------------|
-| Accuracy | | | |
-| Hallucination rate | | | |
-| Latency (p95) | | | |
-| Drift velocity | | | |
+The system will not independently approve payments, deny benefits, or make unsupported eligibility determinations when information is incomplete, conflicting, or ambiguous.
+
+Metric	Target	Measurement	Alert Threshold
+Accuracy	≥95%	Percentage of claims where the AI produces the correct decision, exception classification, and next action compared with the golden dataset.	Below 90%
+Hallucination rate	≤1%	Percentage of outputs containing fabricated policy provisions, unsupported benefit amounts, or claims not supported by evidence.	Above 2%
+Latency (p95)	≤5 seconds	95th percentile response time from receiving claim inputs to generating a decision recommendation.	Above 8 seconds
+Drift velocity	≤2% monthly degradation	Monthly change in accuracy and exception detection performance compared with the baseline golden dataset.	More than 5% degradation
 
 ## HITL Architecture
 <!-- When does a human step in? What's the escalation path? -->
