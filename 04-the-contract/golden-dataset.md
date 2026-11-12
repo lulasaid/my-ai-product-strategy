@@ -39,7 +39,39 @@ The system will not independently approve payments, deny benefits, or make unsup
 | Latency (p95) | ≤5 seconds | 95th percentile response time from receiving claim inputs to generating a decision recommendation. | Above 8 seconds |
 | Drift velocity | ≤2% monthly degradation | Monthly change in accuracy and exception detection performance compared with the baseline golden dataset. | More than 5% degradation |
 
-## HITL Architecture
+## HITL Architecture 
+
+The AI orchestrator handles routine claim evaluation and workflow recommendations. Human specialists retain decision authority for ambiguous, high-risk, conflicting, or exceptional claims.
+
+The objective is to maximize automation while maintaining human accountability, policy compliance, transparency, and safe claims processing.
+
+## HITL – Human Intervention Triggers
+
+A human steps in when the AI cannot safely make a reliable annuity claims recommendation or when a claim requires human judgment or authorization.
+
+| Trigger | When Human Steps In | Human Action |
+|---------|---------------------|--------------|
+| Low Confidence | AI confidence score is below 50%. | Claims specialist reviews the claim and makes the decision. |
+| Conflicting Information | Claim data, policy details, and supporting documents do not match. | Claims specialist investigates and verifies the information. |
+| Potential Fraud | AI detects suspicious activity, unusual patterns, or possible duplicate claims. | Fraud investigation team reviews the case. |
+| Beneficiary Disputes | Multiple beneficiaries, conflicting beneficiary records, or unclear entitlement exist. | Claims specialist verifies beneficiary rights and escalates if necessary. |
+| Missing Documentation | Mandatory documents required to validate the claim are missing. | Claims specialist requests additional documentation. |
+| Policy Ambiguity | Contract language, exclusions, or benefit provisions are unclear or conflicting. | Senior claims specialist interprets the contract. |
+| High-Value Claims | Claim exceeds predefined financial approval or authorization thresholds. | Claims manager reviews and authorizes the decision. |
+| Payment Risk | Identity, bank account ownership, or payment details cannot be verified. | Claims operations verifies information before payment processing. |
+
+### Human Intervention Principle
+
+The AI handles routine claims when all required validations pass and the decision is supported by policy and evidence.
+
+Human intervention is mandatory when:
+- AI confidence is below 50%.
+- Critical information is missing or conflicting.
+- Fraud or beneficiary disputes are identified.
+- Contract interpretation requires human judgment.
+- A claim requires approval beyond the AI's authorized decision limits.
+
+**Final rule:** The AI recommends, validates, and orchestrates. Humans resolve uncertainty, handle exceptions, and retain authority over high-risk decisions and payment authorization. A manager will get a report of any HIL activity to be able to review and confirm actions taken were accurate.
 <!-- When does a human step in? What's the escalation path? -->
 
 ## Red-Team Findings
