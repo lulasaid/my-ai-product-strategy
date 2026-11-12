@@ -20,13 +20,13 @@ TC10	|Claim: Two separate claims submitted for the same annuitant and contract. 
 
 ## Confidence UX Design
 
-**Approach:** show uncertainty / tiered confidence / human-in-loop trigger
+**Approach:** Confidence threshold identified that allows HIL trigger to address any low confidence claims output.
 
-**High confidence (>90%):**
-**Medium confidence (70-90%):**
-**Low confidence (<70%):**
+**High confidence (>90%): Shows rules-based or LLM outcome on claim and recommends approval but shows user additional options.**
+**Medium confidence (50-90%):Requests additional data to complete the claim and reflect it as a hold or partial approval / alternate route of actions, express uncertainty without required info.**
+**Low confidence (<50%):Will escalate or flag. Will not proceed with any approval.**
 
-**User control surface:**
+**User control surface: User sees AI reasoning/drivers, users correct & override outputs, Corrections feed back into model/dataset, users adjust the confidence threshold**
 
 ## Reliability Contract
 
