@@ -40,7 +40,7 @@
 | **Scope:** AI agents used to support annuity claim intake, document review, data validation, beneficiary and contract verification, business-rule evaluation, claim routing, recommendation generation, and preparation of claim servicing actions. Excludes: Final claim approval or denial, changes to contractual rights, beneficiary determinations, financial disbursement, fraud determinations, and customer communications that create a binding commitment without required human authorization.|
 
  
-| Autonomy Boundaries | 
+| Autonomy boundaries | 
 | **Autonomy boundaries:** Routine data/document validation and information retrieval, auto. Claim eligibility or disposition recommendation, human approval required. Final denial, beneficiary change/dispute resolution, or financial disbursement, never auto.|
 
  
