@@ -5,8 +5,9 @@
  
 
 | Loop | Input | Output | Compounds? | Status |
+|------|-------|-----------|----------|--------|
 
-| Recursive Learning | Examiner decisions, corrections, overrides, claim outcomes | Improved recommendations and handling of similar future claims | Y | missing |
+| Recursive Learning | Examiner decisions corrections overrides claim outcomes | Improved recommendations and handling of similar future claims | Y | missing |
 
 | Cross-Domain Transfer | Claims learnings + Contract, Product, Customer, Beneficiary & Distributor context | Reusable intelligence and richer decision context across claims/workflows | Y | missing |
 
