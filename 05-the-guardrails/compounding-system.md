@@ -36,7 +36,7 @@
 ## Governance Policy
 
 | Scope | Autonomy Boundaries | Escalation Triggers | Audit Cadence | Regulatory Exposure | 
-|------|-------|-----------|----------|--------|
+|------|-----------------------|---------------------|---------------|----------------------|
 | **Scope:** AI agents used to support annuity claim intake, document review, data validation, beneficiary and contract verification, business-rule evaluation, claim routing, recommendation generation, and preparation of claim servicing actions. Excludes: Final claim approval or denial, changes to contractual rights, beneficiary determinations, financial disbursement, fraud determinations, and customer communications that create a binding commitment without required human authorization.|
 
  
