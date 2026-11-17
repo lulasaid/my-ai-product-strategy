@@ -33,6 +33,80 @@
 ## Agent Topology
 <!-- If using agents: what can each agent do? What can't it do? Who approves what? -->
 
+## Governance Policy
+
+ 
+
+**Scope:** AI agents used to support annuity claim intake, document review, data validation, beneficiary and contract verification, business-rule evaluation, claim routing, recommendation generation, and preparation of claim servicing actions. Excludes: Final claim approval or denial, changes to contractual rights, beneficiary determinations, financial disbursement, fraud determinations, and customer communications that create a binding commitment without required human authorization.
+
+ 
+
+**Autonomy boundaries:** Routine data/document validation and information retrieval, auto. Claim eligibility or disposition recommendation, human approval required. Final denial, beneficiary change/dispute resolution, or financial disbursement, never auto.
+
+ 
+
+**Escalation triggers:** 1.AI confidence falls below the approved production threshold. 2.Required claim, contract, beneficiary, or customer data is missing or conflicting across authoritative sources. 3.Business rules return conflicting or multiple possible outcomes. 4.Beneficiary information conflicts with contract or claim information. 5.Claim falls outside documented business rules or represents a previously unseen exception. 6.Customer communication contains fraud, legal, complaint, dispute, vulnerability, or distressed-language indicators. 7.AI recommendation conflicts with deterministic rules or authoritative source data. 8.Any action would deny a claim, change beneficiary rights, or initiate/release a financial payment.
+
+ 
+
+**Audit cadence:** Real-time, Confidence threshold, rule conflicts, missing data, prohibited actions, access/security violations (Claims AI Platform/Product Owner). Weekly, Human overrides, AI errors, exception patterns, escalation rate and recommendation accuracy (Claims Business/Product Owner). Quarterly, Model performance, drift, governance, security, privacy, bias/fairness and regulatory controls (AI Governance / Model Risk Owner).
+
+ 
+
+**Regulatory exposure (EU AI Act / other):** Insurance regulatory requirements; enterprise data/privacy and AI governance; applicable U.S. state privacy/insurance requirements; GDPR where EU personal data is in scope; EU AI Act where the system/use falls within its territorial and use-case scope.. Risk tier: limited. Controls: Human-in-the-loop approval for consequential decisions; role-based access controls; approved authoritative data sources; data lineage; decision and prompt logging; explainability; confidence thresholds; automated escalation; model and data-quality monitoring; audit trails; version-controlled business rules; privacy controls; and periodic model-risk/governance review..
+
+ 
+
+## Agent Topology
+
+ 
+
+Intake Agent
+
+ 
+
+Can: classify incoming claim documents, extract information and identify missing documentation.
+
+Can't: determine final claim eligibility.
+
+Approval owner: Claims Examiner.
+
+ 
+
+Data Validation Agent
+
+ 
+
+Can: retrieve and validate Claims, Contract, Customer, Product, Beneficiary and Distributor data against approved authoritative sources.
+
+Can't: change authoritative source data or resolve material conflicts independently.
+
+Approval owner: Claims Examiner / appropriate Domain Owner.
+
+ 
+
+Claims Decision Support Agent
+
+ 
+
+Can: apply approved rules, identify exceptions and recommend claim disposition or next-best action.
+
+Can't: independently approve or deny claims.
+
+Approval owner: Authorized Claims Examiner.
+
+ 
+
+Payment/Servicing Agent
+
+ 
+
+Can: prepare approved servicing or payment actions for execution.
+
+Can't: independently release funds or modify beneficiary/contract rights.
+
+Approval owner: Authorized Claims Operations role.
+
 ## Shadow AI Audit
 
 | Tool | Owner | Risk Level | Decision |
