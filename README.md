@@ -99,11 +99,37 @@
 
 **How you get this funded, shipped, and adopted.**
 
-- **Horizon 1 (Now):**
-- **Horizon 2 (Next):**
-- **Horizon 3 (Bet):**
-- **Board Narrative:** **The case:**
-- **Ask:** ## M1 Baseline vs. Now
-- **Key Strategic Change:**
+- ### Horizon 1, Ship (0-4 weeks)
+
+| Initiative | Strategy Component | Why it ships now | Confidence |
+| --- | --- | --- | --- |
+| Enforce system-level permission boundaries so AI agents can validate documents and draft recommendations, while blocking automated final denials, beneficiary changes, or disbursements. | Guardrails | Hard autonomy rules and prohibited actions are already defined in the strategy and can be enforced via policy/RBAC gates immediately without waiting on model tuning. | H |
+
+### Horizon 2, Validate (1-3 months)
+
+| Initiative | Strategy Component | Hypothesis | Kill Criteria | Confidence |
+| --- | --- | --- | --- | --- |
+| Route incoming claims documents to a low-cost triage model for classification, extraction, and summaries, escalating only complex, conflicting, or disputed claims to the frontier reasoning model. | Moat | Routing ~70% of routine claim tasks to a triage model and ~30% to a frontier model will cut AI COGS per claim while preserving extraction and triage quality. | If we don't see at least a 35% reduction in per-claim inference cost at parity extraction quality by week 6, we stop. | M |
+| Automatically flag and route claims to human specialists whenever AI confidence drops below the production threshold or authoritative data sources conflict. | Contract | Confidence-threshold and data-conflict routing will catch ambiguous or high-risk claims before recommendation or payout without stalling routine straight-through processing. | If we don't see precision on low-confidence/conflict escalations above 85% with less than 25% false-escalation overhead by week 6, we stop. | M |
+| Build a curated benchmark dataset covering standard annuity claims, beneficiary disputes, missing documentation, and known edge cases to measure accuracy against a >95% reliability target. | Contract | A representative annuity claims benchmark will expose blind spots across standard, disputed, and edge-case claims and establish a reliable baseline toward the >95% target. | If we don't see a validated benchmark of at least 150–200 annotated cases across all four claim categories with inter-rater agreement by week 6, we stop. | M |
+
+### Horizon 3, Explore (3-6 months)
+
+| Initiative | Strategy Component | What must be true first | Confidence |
+| --- | --- | --- | --- |
+| Capture structured reason codes whenever human specialists edit or override AI claim recommendations to build a proprietary outcome dataset. | Guardrails | Human review queues, standardized override workflows, and governed audit/data-retention permissions must be live so captured overrides reflect real decisions rather than noisy workarounds. | L |
+
+### Unmapped (cut or rethink)
+
+| Initiative | Why it's unmapped | Recommendation |
+| --- | --- | --- |
+| *(None)* | All 5 initiatives map to at least one strategy component in the annuity claims workflow (though **The Bet** still suffers from a split identity with the consumer couples game in the strategy summary). | Rethink **The Bet** so it explicitly states the annuity claims product, buyer, and validation hypothesis rather than mixing couples-game notes. |
+
+### Mapping Disagreements
+
+| Initiative | I mapped to | You'd map to | Why |
+| --- | --- | --- | --- |
+| Route incoming claims documents to a low-cost triage model for classification, extraction, and summaries, escalating only complex, conflicting, or disputed claims to the frontier reasoning model. | Moat | Margin | Model cascading with a 70/30 triage-to-frontier split is primarily a unit-economics and COGS-control mechanism in **Margin**, not a defensible moat on its own. |
+
 
 → Details: [`06-the-pitch/`](06-the-pitch/)
