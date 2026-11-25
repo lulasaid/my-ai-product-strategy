@@ -111,10 +111,15 @@ Approval owner: Authorized Claims Operations role.
 
 | Tool | Owner | Risk Level | Decision |
 |------|-------|-----------|----------|
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
+| Public generative AI tools (e.g., ChatGPT) used to summarize claim documents, interpret contract provisions, or draft claim recommendations | Claims Examiners | H | govern |
+| Unapproved AI-powered PDF/OCR tools used to extract information from death certificates, beneficiary forms, and supporting claim documents | Claims Operations | H | govern |
+| Personal AI assistants or browser extensions used to draft customer communications, summarize claim notes, or analyze claimant information | Claims / Customer Service | H | kill |
 
-**Total tools found:**
-**Tools after triage:**
-**Estimated hidden spend:**
+**Total tools found:** 3 potential tools/use cases identified for validation through employee surveys, interviews, and access-log reviews.
+**Tools after triage:** 0 approved as-is; 2 candidates for governed use following security, privacy, and compliance review; 1 prohibited use case involving unapproved processing of sensitive customer information.
+**Estimated hidden spend:**Unknown; requires review of employee subscriptions, expense reports, corporate card transactions, and reimbursed software expenses.
+
+
+
+
+
