@@ -5,16 +5,6 @@ Killer feature and usage %: Processing of large volumes of claims documents and 
 Pricing strategy bundle or add-on: add-on as usage based.
 
 ## Cost Model
-
-
-| Cost Category | Per-User/Month | Notes |
-|--------------|----------------|-------|
-| Inference (primary model) | | |
-| Inference (cascading/triage) | | |
-| Infrastructure | | |
-| Data/storage | | |
-| Human-in-the-loop | | |
-| **Total AI COGS** | | |
 | Cost Category | Per-User/Month | Notes |
 |--------------|----------------|-------|
 | Inference (primary model) | $15 | Frontier model used for complex claim analysis, decision support, and reasoning. |
