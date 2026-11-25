@@ -55,16 +55,10 @@
 - **Gross Margin (AI-adjusted):**60%
 - **Pricing Model:** Hybrid (seat-based + usage-based).
 - **Pricing Today → Tomorrow:** Existing enterprise platform licensing / subscription pricing. Specific current pricing to be determined based on the organization's existing commercial model. → Base platform subscription with an additional usage-based fee for complex multimodal claims processing. Include a predefined monthly usage allowance with additional charges for claims exceeding the allowance.
-- **Total AI COGS / unit:** Estimated Blended AI COGS / Claim: ~$0.21 to $0.58 per claim (use $0.40/claim as a conservative planning baseline)
+- **Total AI COGS / unit:** Estimated Blended AI COGS / Claim: ~$0.21 to $0.58 per claim...$0.40/claim as a conservative planning baseline
 - **Cascading Strategy:** Triage: Lower-cost LLM used for initial document classification, data extraction, claim summaries, and straightforward claims processing.; frontier: More advanced LLM used for complex claim analysis, conflicting evidence, beneficiary disputes, policy interpretation, and multi-step reasoning.; ratio **Cascading Strategy** 70% triage model / 30% frontier model. Target is to process the majority of routine claims through lower-cost models while reserving more expensive models for complex scenarios.
 - **Net Margin Shift:** Potential improvement in revenue growth and gross margin through monetization of AI-powered capabilities and high-value document processing.…
-- **Break-even at:** $0.40 blended AI COGS/claim:
-
-0% Gross Margin (strict variable break-even): $0.40 / claim
-
-65% Target AI Gross Margin: $1.15 / claim overage rate
-
-75% Target AI Gross Margin: $1.60 / claim overage rate
+- **Break-even at:** $0.40 blended AI COGS/claim: 0% Gross Margin (strict variable break-even): $0.40 / claim65% Target AI Gross Margin: $1.15 / claim overage rate 75% Target AI Gross Margin: $1.60 / claim overage rate 
 
 → Details: [`03-the-margin/`](03-the-margin/)
 
