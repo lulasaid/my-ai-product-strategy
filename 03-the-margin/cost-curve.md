@@ -60,5 +60,10 @@ Base platform subscription with an additional usage-based fee for complex multim
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->
 
 **Before (traditional SaaS):**
+Revenue generated primarily through fixed per-user or per-seat subscription fees. Customers pay for access to claims management software, regardless of the number or complexity of claims processed. Revenue is predictable, but does not directly scale with claims volume or AI processing costs.
+
 **After (AI-enabled):**
+Revenue generated through a hybrid pricing model combining base platform subscriptions with usage-based AI fees. Customers pay for AI Claims Decision Support and Claim Summaries through seat-based licensing, with additional usage-based fees for high-volume and complex multimodal claims processing, including PDFs, images, forms, and handwritten documents. Revenue scales with AI adoption, processing volume, and complexity.
+
 **Net margin shift:**
+Potential improvement in revenue growth and gross margin through monetization of AI-powered capabilities and high-value document processing. However, increased inference, infrastructure, and human-review costs create margin pressure. A hybrid pricing model, model cascading, and usage limits help protect profitability by aligning revenue with AI consumption and processing costs.
