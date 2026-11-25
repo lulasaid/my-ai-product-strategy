@@ -15,7 +15,7 @@ Pricing strategy bundle or add-on: add-on as usage based.
 | **Total AI COGS** | \*\*$40\*\* | Estimated monthly AI cost per active user. |
 
 
-\*Note: Illustrative planning estimates, not actual vendor quotes or measured operating costs.\*\
+*Note: Illustrative planning estimates, not actual vendor quotes or measured operating costs.*
 
 
 ## Cascading Strategy
@@ -25,11 +25,11 @@ Pricing strategy bundle or add-on: add-on as usage based.
 **Frontier model:**More advanced LLM used for complex claim analysis, conflicting evidence, beneficiary disputes, policy interpretation, and multi-step reasoning.
 
 **Routing rule:**
-- Routine claims with clear documentation and straightforward policy requirements are processed using the lower-cost triage model.\
-- Complex claims, conflicting information, and cases requiring advanced reasoning are routed to the frontier model.\
-- Claims with confidence below 50% are automatically flagged and routed to a human claims specialist.\
-- Fraud indicators, beneficiary disputes, and high-risk exceptions require human review regardless of confidence score.\
-- The system must not approve or reject claims solely based on confidence scores.\
+- Routine claims with clear documentation and straightforward policy requirements are processed using the lower-cost triage model.
+- Complex claims, conflicting information, and cases requiring advanced reasoning are routed to the frontier model.
+- Claims with confidence below 50% are automatically flagged and routed to a human claims specialist.
+- Fraud indicators, beneficiary disputes, and high-risk exceptions require human review regardless of confidence score.
+- The system must not approve or reject claims solely based on confidence scores.
 
 **Expected cascade ratio:**
 **Cascading Strategy** 70% triage model / 30% frontier model. Target is to process the majority of routine claims through lower-cost models while reserving more expensive models for complex scenarios.
