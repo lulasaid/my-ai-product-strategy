@@ -117,7 +117,7 @@ Approval owner: Authorized Claims Operations role.
 
 **Total tools found:** 3 potential tools/use cases identified for validation through employee surveys, interviews, and access-log reviews.
 **Tools after triage:** 0 approved as-is; 2 candidates for governed use following security, privacy, and compliance review; 1 prohibited use case involving unapproved processing of sensitive customer information.
-**Estimated hidden spend:**Unknown; requires review of employee subscriptions, expense reports, corporate card transactions, and reimbursed software expenses.
+**Estimated hidden spend:** Unknown; requires review of employee subscriptions, expense reports, corporate card transactions, and reimbursed software expenses.
 
 
 
