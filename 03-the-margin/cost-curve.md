@@ -6,15 +6,25 @@ Pricing strategy bundle or add-on: add-on as usage based.
 
 ## Cost Model
 
-\| Cost Category | Per-User/Month | Notes |\
-\|--------------|----------------|-------|\
-\| Inference (primary model) | $15 | Frontier model used for complex claim analysis, decision support, and reasoning. |\
-\| Inference (cascading/triage) | $5 | Lower-cost model used for routine claim classification, summaries, and initial document review. |\
-\| Infrastructure | $6 | Compute, orchestration, API processing, and system maintenance. |\
-\| Data/storage | $2 | Storage and retrieval of claim documents, extracted data, and processing results. |\
-\| Human-in-the-loop | $12 | Human review of low-confidence claims (below 50%) and complex exceptions. |\
-\| \*\*Total AI COGS\*\* | \*\*$40\*\* | Estimated monthly AI cost per active user. |\
-\
+
+| Cost Category | Per-User/Month | Notes |
+|--------------|----------------|-------|
+| Inference (primary model) | | |
+| Inference (cascading/triage) | | |
+| Infrastructure | | |
+| Data/storage | | |
+| Human-in-the-loop | | |
+| **Total AI COGS** | | |
+| Cost Category | Per-User/Month | Notes |
+|--------------|----------------|-------|
+| Inference (primary model) | $15 | Frontier model used for complex claim analysis, decision support, and reasoning. |
+| Inference (cascading/triage) | $5 | Lower-cost model used for routine claim classification, summaries, and initial document review. |
+| Infrastructure | $6 | Compute, orchestration, API processing, and system maintenance. |
+| Data/storage | $2 | Storage and retrieval of claim documents, extracted data, and processing results. |
+| Human-in-the-loop | $12 | Human review of low-confidence claims (below 50%) and complex exceptions. |
+| **Total AI COGS** | \*\*$40\*\* | Estimated monthly AI cost per active user. |
+
+
 \*Note: Illustrative planning estimates, not actual vendor quotes or measured operating costs.\*\
 \
 \## Cascading Strategy\
@@ -55,14 +65,7 @@ Pricing strategy bundle or add-on: add-on as usage based.
 \| Model provider raises prices 50% | Increased inference costs and reduced profitability. | Evaluate alternative model providers, optimize model selection, negotiate enterprise pricing, and adjust usage-based fees if necessary. |
 
 
-| Cost Category | Per-User/Month | Notes |
-|--------------|----------------|-------|
-| Inference (primary model) | | |
-| Inference (cascading/triage) | | |
-| Infrastructure | | |
-| Data/storage | | |
-| Human-in-the-loop | | |
-| **Total AI COGS** | | |
+
 
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->
