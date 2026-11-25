@@ -1,6 +1,6 @@
 # My Ai Product Strategy
 
-> **Built for a humorous outlet to those struggling with silly fights, breakups, a bad day, or a mood to have some fun in an interactive game instead of through arguments.…
+> **AI Claims Decision and Exception Orchestrator Description: an AI enabled product for annuity claims that guides a claim through intake, evidence gathering, validation, decision support, exception handling, and human review. The goal is to reduce claim cycle time and manual effort by orchestration and controls.
 
 ---
 
@@ -37,10 +37,10 @@
 
 **Why this won't get copied in 6 months.**
 
-- **Data Flywheel Score:**
-- **Weakest Loop:**
-- **Top Encroachment Threat:**
-- **Encroachment Defense:**
+- **Data Flywheel Score:** 13/20
+- **Weakest Loop:** Network
+- **Top Encroachment Threat:** Platform
+- **Encroachment Defense:** Release iteratively, consistent market analysis and increased feature release based on competition
 - **Vendor Portability:** Partial
 
 → Details: [`02-the-moat/`](02-the-moat/)
@@ -68,8 +68,8 @@
 
 **Why users will trust a probabilistic system.**
 
-- **Reliability Target:**
-- **Golden Dataset:**
+- **Reliability Target:** <95%
+- **Golden Dataset:** 1o TC
 - **Confidence UX:** Confidence threshold identified that allows HIL trigger to address any low confidence claims output.
 - **HITL Architecture:** The AI orchestrator handles routine claim evaluation and workflow recommendations. Human specialists retain decision authority for ambiguous, high-risk, conflicting, or exceptional claims.
 - **Failure Mode Coverage:** *What failure mode did your partner find that you missed?*
@@ -82,7 +82,7 @@
 
 **What breaks when this scales, and what compounds.**
 
-- **Compounding System:** | Loop | Input | Output | Compounds? | Status | |------|-------|-----------|----------|--------| | Recursive Learning | Examiner decisions corrections overrides claim outcomes | Improved recommendations and handling of s…
+- **Compounding System:** | Loop | Input | Output | Compounds? | Status | Recursive Learning | Examiner decisions corrections overrides claim outcomes | Improved recommendations and handling of s…
 - **Governance Posture:** AI agents used to support annuity claim intake, document review, data validation, beneficiary and contract verification, business-rule evaluation, claim routing, recommendation generation, and preparation of claim servic…
 - **Autonomy Boundaries:** Routine data/document validation and information retrieval, auto. Claim eligibility or disposition recommendation, human approval required. Final denial, beneficiary change/dispute resolution, or financial disbursement, never auto.|
 - **Escalation Triggers:** 1.AI confidence falls below the approved production threshold. 2.Required claim, contract, beneficiary, or customer data is missing or conflicting across authoritative sources.…
