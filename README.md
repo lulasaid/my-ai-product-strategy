@@ -99,7 +99,7 @@
 
 **How you get this funded, shipped, and adopted.**
 
-- ### Horizon 1, Ship (0-4 weeks)
+- Horizon 1, Ship (0-4 weeks)
 
 | Initiative | Strategy Component | Why it ships now | Confidence |
 | --- | --- | --- | --- |
